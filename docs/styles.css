@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/* Estilos para o card-group usando CSS Grid */
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); /* 3 colunas de largura igual */
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-items: center;
+}
+
+/* Estilos do card continuam os mesmos */
+.card {
+    max-width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+}
+
+.card-body {
+    padding: 15px;
+    
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+}
+
+.text-body-secondary {
+    color: #888;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .card-group {
+        grid-template-columns: 1fr; /* 1 coluna em telas menores */
+    }
+}
