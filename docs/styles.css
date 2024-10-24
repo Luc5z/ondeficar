@@ -63,3 +63,43 @@ h1{
         grid-template-columns: 1fr; /* 1 coluna em telas menores */
     }
 }
+
+/* body {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 1em;
+}
+
+section.video {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.portifolio {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+} */
+
