@@ -64,7 +64,7 @@ h1{
     }
 }
 
-/* body {
+body {
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
     background-color: #f0f8ff;
@@ -101,5 +101,5 @@ footer {
     padding: 5px;
     bottom: 0;
     width: 100%;
-} */
+}
 
